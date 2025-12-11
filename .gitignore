@@ -1,0 +1,18 @@
+# Dataset (private, not to be shared)
+*.csv
+dealershipvehicles_dataset.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Training outputs (intermediate checkpoints, not needed)
+vehicle_model_results/
+tmp_out/
+
+# OS
+.DS_Store
